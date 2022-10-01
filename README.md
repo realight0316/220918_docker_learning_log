@@ -19,3 +19,7 @@
 ### 2022.09.24
 - CentOS가 AWS EC2에서 지원을 안함, 로컬 WSL CentOS 이용하려 했으나 여러 문제가 발생해서 결국 환경 조성 포기하고 삭제
 - Windows 환경에서 Mysql, docker 재설치
+
+### 2022.10.01
+- docker orchestrator를 이용하여 컨테이너 간 연결 연습
+  - master 컨테이너에서 에러 발생 시 slave로 연결된 컨테이너를 메인으로 돌리고 에러 컨테이너를 따로 분할
